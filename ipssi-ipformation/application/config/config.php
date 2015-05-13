@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'www.ipformation.dev';
+$config['base_url']	= '';
 
 /*
 |--------------------------------------------------------------------------
@@ -126,7 +126,7 @@ $config['subclass_prefix'] = 'MY_';
 | DO NOT CHANGE THIS UNLESS YOU FULLY UNDERSTAND THE REPERCUSSIONS!!
 |
 */
-$config['permitted_uri_chars'] = 'a-z A-Z 0-9~%.,:_\-';
+$config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 
 
 /*
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'M4Sup3r3ncRyPt10NcLe';
+$config['encryption_key'] = '78e819a21b857d3736bb5bd3be9e5cefca2df2168d7c7d0073775eb2f613e753';
 
 /*
 |--------------------------------------------------------------------------
@@ -279,7 +279,7 @@ $config['cookie_secure']	= FALSE;
 | COOKIE data is encountered
 |
 */
-$config['global_xss_filtering'] = TRUE;
+$config['global_xss_filtering'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
