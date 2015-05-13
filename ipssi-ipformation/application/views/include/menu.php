@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title><?php echo $title; ?></title>
-		<?php include_once('./application/views/include/include.php'); ?>
+		<?php include_once($_SERVER['DOCUMENT_ROOT'].'/application/views/include/include.php'); ?>
 	</head>
 	<body>
 		<div class="row">
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12">
-						<br/><a href="#" class="btn btn-primary btn-block">Mon IPSSI</a>
+						<br/><a href="/connexion" class="btn btn-primary btn-block">Mon IPSSI</a>
 					</div>
 				</div>
 			</div>
@@ -86,45 +86,3 @@
 				</div>
 			</div>
 		</nav>
-		<!--<nav class="navbar navbar-default">
-  			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span>Menu</span>
-					</button>
-				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Accueil</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Le groupe <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Présentation</a></li>
-								<li><a href="#">Chiffres clés</a></li>
-								<li><a href="#">Notre expertise</a></li>
-								<li><a href="#">Les valeurs du groupe</a></li>
-							</ul>
-						</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">L'activité <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Nos métiers</a></li>
-							<li><a href="#">Nos secteurs d'activités</a></li>
-							<li><a href="#">Ils nous font confiance</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nous rejoindre <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Les postes à pourvoir</a></li>
-								<li><a href="#">Postuler</a></li>
-							</ul>
-						</li>
-					<li><a href="#">Espace collaborateur</a></li>
-					<li><a href="#">Contact</a></li>
-					</ul>
-				</div>
-  			</div>
-		</nav>-->
