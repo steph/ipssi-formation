@@ -1,6 +1,6 @@
 <?php
 
-class Accueil extends CI_Controller
+class Accueil_site extends CI_Controller
 {	
 	public function __construct()
 	{
@@ -15,7 +15,7 @@ class Accueil extends CI_Controller
 		$menu['menu'] = $this->menu->recupMenu();
 		
 		$this->load->view('include/menu.php', $menu);
-		$this->load->view('accueil.php');
+		$this->load->view('accueil_site.php');
 	}
 }
 
